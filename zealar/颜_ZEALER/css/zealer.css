@@ -1,0 +1,817 @@
+@charset "UTF-8";
+.back{
+	width: 100%;
+	color: #575D6A;
+	font: "微软雅黑";
+}
+.headed{
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	background-color: black;
+}
+.f1{
+	float: left;			/*设置统一样式向左*/
+}
+.fr{
+	float: right;				/*设置统一样式向右*/
+}					
+.clear{							/*清除*/
+	zoom: 1;
+}
+.clear:after{
+	content: '';
+	display:table ;
+	clear: both;
+}
+.nav{
+	max-width: 1120px;
+	margin: auto;
+	
+	
+}
+.index li{
+	display: inline-block;
+	line-height: 60px;
+}
+.index li a{
+	margin: 0 5px;
+}
+	
+
+.title{
+	font-size:23px ;
+	line-height: 60px;
+	padding-right: 25px;
+}
+.title a{
+	color: #31343b;
+}
+a {
+  color: #575d6a; }
+
+.main1{
+	line-height: 60px;
+	
+}
+.contenttow{
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.title,.main1 a{
+	color: white;
+}
+.nav3 a{						/*导航栏字体*/
+	margin-left: 10px;
+}
+.nav2 a{
+	display: block;
+}
+.main1-tit{
+	color: #31343B;
+	font-size: 22px;
+	line-height: 60px;
+	float: left;
+	margin-right:15px ;
+	margin-left:5px ;
+	letter-spacing:1.5px ;
+}
+.main1-ul{
+	color: #575D6A;
+	line-height: 60px;
+}
+.main1-ul li{
+	display: inline-block;
+	margin: 0 12px;
+}
+ #large{
+ 	width: 100%;
+ 	height: 500px;
+ 	overflow: hidden;
+ 	position: relative;
+ }
+ .slide{
+ 	width: 800%;
+ 	position: absolute;
+ 	left: 0;
+ 	top: 0;
+ }
+ .contenttow{
+ 	width: 100%;
+ 	background-color: #F7F7F7;
+ }
+.video div{
+ 	width:32%;
+ 	text-align: center;
+ 	position: relative;
+ }
+.video div img{
+  	width: 100%;
+  	 }					/*第一部分*/
+.video div span{
+	line-height: 60px;
+	font-size:14px;	
+}
+.video2{
+	margin: 0 2%;
+	
+}
+.video5{
+	margin: 0 2%;
+}
+
+.recommed,.appraisal{
+	width: 49%;
+}
+.recommed{
+	margin-right:2% ;			
+}
+.recommed .img img,.appraisal .img img{
+	width: 100%;
+}
+.recommed .img,.appraisal .img{					/*以图片为相对定位*/
+	position: relative;
+}
+.recommed em,.appraisal em{
+	width: 99%;
+	display: block;
+	color: white;								/*字体绝对定位，并各种调正*/
+	position: absolute;
+	bottom: 0;
+	font-size:16px ;
+	font-weight: bold;
+	padding-left: 1%;
+	line-height: 40px;
+}
+.contentthree ul{
+	padding-left: 20px;
+}
+.contentthree ul li{
+	list-style: disc;
+	margin-left:15px ;
+	line-height: 36px;
+	font-size: 16px;
+}
+.contentthree ul li b{
+	font-weight: normal;
+}
+.contentthree ul li i{
+	float: right;				/*字体浮动向右*/
+	font-size: 12px;
+}
+.contentfour a{
+	width: 24%;
+	margin-left: 1.3%;		/*第四部分，超出部分隐藏*/
+	position: relative;
+	overflow: hidden;
+}
+.contentfour a:nth-of-type(1){
+	margin-left:0 ;			/*第一张图片不向左*/
+}
+.contentfour a img{
+	width: 100%;
+}
+.contentfour em{
+	line-height: 40px;
+	font-size: 12px;
+	position: absolute;		/*字体绝对定位*/
+	bottom: 0;
+	color: white;
+	width: 100%;
+	height: 40px;
+	
+}
+.dog{
+	padding-bottom: 40px;/*两部分隔开*/
+}
+.contentfive{
+	background-color: #F7F7F7;
+	width: 100%;				/*第五部分*/
+}
+.contentfive .nav{
+	width: 1120px;				/*第五部分的内容最大，内容居中*/
+	margin: auto;
+}
+.contentfive .hand{				/*分开左右两边*/		
+	width: 760px;
+	
+}
+ .hand a{
+	width: 358px;					/*左边的a标签的大小*/
+	margin-right:20px ;
+	margin-bottom:20px ;
+	display: inline-block;
+}
+ .hand a img{
+	width: 100%;					/**/
+}
+ .fivemian{
+	width: 360px;					/*右边的大小*/
+}
+ .fivemian img{
+	width: 100%;
+}
+. .fivemian div{
+	padding: 18px;					/*右边的输入框*/
+	text-align: center;
+	background-color: white;
+	position: relative;
+}
+ .fivemian div label{
+	display: block;
+	color: #abb0bc;
+	text-align: left;
+}
+ .fivemian div input{
+	width: 100%;
+	height: 38px;				/*输入框信息*/	
+	color: #333;
+	text-indent: 3px;
+	border: 1px solid red;
+}
+.fivemian div select{
+	padding: 0 5px;
+	border: 1px solid red;
+	text-align: left;
+	width:100%;
+	background-color: salmon;
+	font-size: 14px;
+	color: #333333;
+	line-height: 40px;
+	height: 40px;
+	cursor: pointer;
+	margin-bottom:20px ;
+}
+ .fivemian div a{
+	width: 100%;
+	background-color: #00b06d;
+	color: white;			/*查询信息框*/
+	font-size: 16px;
+	display: block;
+	line-height: 38px;
+	text-align: center;
+}
+.fivemian ul{
+	display: none;
+	background-color: white;			/*小图标*/
+	padding: 1% 0;
+	
+}
+ .fivemian ul li{
+	background-color: white;
+	padding: 1% 0;
+	float: left;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+}
+.fivemian ul li a{
+	display: block;
+	border-right:1px solid #eceef1 ;
+	
+}
+ .fivemian ul li span{
+	margin: 0 35%;
+	width: 30%;
+	display: block;
+}
+.contentsix{
+	width: 100%;				/*第六部分*/
+	overflow: hidden;
+}
+.contentsix .nav{
+	width: 1120px;				
+	margin: auto;				
+}
+.contentsix span{
+	display: block;
+	width: 100%;
+}
+.contentsix .left{
+	width: 760px;
+}
+.left div a{
+	 width: 358px;
+	 height: 240px;					/*左边的第四张图片*/
+     display: block;
+     border: 1px solid #eceef1;
+     margin-right: 18px;
+     text-align: center;
+     float: left;
+     margin-bottom: 14px;
+     font-size:16px;
+     text-align: center;
+     position: relative;
+     overflow: hidden;
+}
+.contentsix .left div a div{
+	  position: relative;
+      left: 0px;
+      top: -10px;				/*左边字体调整*/
+}
+.contentsix .left div a i{
+	  margin-top:-15px;
+      display: block; 
+}
+.contentsix nav a img:nth-of-type(1),.contentsix nav a img:nth-of-type(3){
+	margin-right: 2%;
+}
+  .right{
+ 	  display: block;
+      width: 358px;			
+      border: 1px solid #eceef1;		/*同上*/
+      padding-top: 20px;
+      text-align: center;
+ }
+.right span {
+        border-left: 3px solid #008cff;
+        line-height: 20px;
+        font-size: 20px;
+        text-align: left; }
+ .right img {
+        width: 50%;
+        margin-left: 25%; }
+ .right label {
+        display: block;
+        color: #abb0bc;
+        text-align: left;
+        margin: 20px 18px; }
+ .right select {
+        padding: 0 5px;
+        border: 1px solid #333333;
+        text-align: left;
+        width: 326px;
+        background-color: white;
+        font-size: 14px;
+        color: #333;
+        line-height: 40px;
+        height: 40px;
+        cursor: pointer; }
+.right a {
+        width: 326px;
+        background-color: #008cff;
+        color: white;
+        font-size: 16px;
+        display: block;
+        line-height: 38px;
+        margin: 20px auto; }
+.counsel{
+	background-color: #F7F7F7;			/*第七部分*/
+	
+}
+.counsel .nav{					
+	display: block;					/*内容*/
+	
+}
+.counsel .nav a{
+	width: 49%;
+	text-align: center;			/*四张图片*/
+	float: left;
+	position: relative;
+}
+   .cursom a:nth-of-type(1),.cursom a:nth-of-type(3){
+	margin-right: 2%;
+}
+.counsel .nav a img{
+	width: 100%;
+}
+.counsel .nav a em{
+	 display: block;				/*调整字体的位置*/
+     font-size: 15px;
+     line-height: 70px;
+}
+.counsel .big{
+	display: none;   /*当到一程度时，会出现*/
+}
+.counsel .big img{
+	width: 100%;
+}
+.counsel .big ul li{
+	 float: left;
+     width: 25%;
+     text-align: center;
+     line-height: 35px;
+     border-right: 1px solid #eceef1;
+     box-sizing: border-box;
+}
+
+.foot{
+	color: #757e91;
+	border-bottom: 1px solid #f2f2f2;
+}
+.foot .server{
+	padding-top: 30px;
+    padding-bottom: 55px;				/*底部*/
+    border-bottom: 1px solid #f2f2f2; 
+}
+.foot .server ul{
+	 width: 22%;
+     float: left;					/*3个22%*/
+     line-height: 30px;
+     font-size: 14px;
+}
+.foot .server ul li:nth-of-type(1) {
+	 line-height: 55px;
+     font-size: 16px;
+}
+.foot .server ul:nth-of-type(4),.foot .server ul:nth-of-type(5){
+	width: 17%;
+}
+.foot .server ul:nth-of-type(5){
+	text-align: center;
+}
+.foot .rom{
+	 padding: 10px 0;
+}
+.foot .rom span{
+	display: inline-block;
+    float: left;
+    line-height: 40px;
+    width: 10%;
+} 
+ .rom  div{
+	float: left;
+    display: inline-block;
+    width: 90%;
+}
+ .rom em{
+	margin-right: 60px;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+}
+ .bottom {
+    text-align: center;
+    line-height: 33px;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    box-sizing: border-box; }
+ .bottom span {
+    display: inline-block;
+    margin: auto;
+    line-height: 33px; }
+.bottom br {
+      display: none; }
+@media screen and (max-width:1120px ) {
+	.contenttow ul li:nth-of-type(1),.contenttow ul li:nth-of-type(7){
+		display: none;}						/*第一低于1120时，去除两个*/
+}
+
+@media screen and (max-width:820px ) {
+	.contenttow .content div span{
+		font-size: 12px;				
+		line-height: 40px;
+	}
+}
+@media screen and (max-width:775px){
+	.nav{
+		padding-top: 15px;
+		padding-right:0; 
+	}
+	.headed .nav{
+		padding-top: 0;
+	}
+	.headed .main1{
+		width: 100%;
+		margin: auto;
+		line-height: 45px;
+	}
+	.headed .main1 .title{
+	line-height: 45px;
+     color: white;
+      font-size: 18px;				/*居中*/
+      margin-left: -33px;
+      position: absolute;
+      left: 50%;
+	}
+	
+	.headed .main1 .em em{
+		display: block;
+        height: 5px;				/*设置旋转跳跃出来*/
+        width: 12px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+	}
+	.headed .main1 .em{
+		position: absolute;
+		top: 23px;
+		left: 18px;
+		z-index: 6;
+	}
+	
+	
+	
+	.headed .main1 a{
+		color: white;
+	}
+	.headed .main1 .nav3{
+		margin-right: 23px;
+		
+	}
+	.headed .main1 .nav3 a:nth-of-type(2){
+		display: none;
+	}
+	.headed .main1 ul{
+		display: none;
+	}
+	
+	.headed .nav2{
+		background-color: white;
+		position: absolute;
+		top: -380px;
+		z-index: 9;
+		width: 100%;
+		display: none;
+	}
+	.headed .nav2 li{
+		display: block;
+		line-height: 45px;
+		border-bottom:1px solid #ECEEF1 ;
+		width: 94%;
+		margin-left: 3%;
+	}
+	.headed .nav2 li a{
+		color: #757E91;
+	}
+	.con-top{
+		padding-top:45px ;
+	}
+	
+	#large{
+		
+		width: 100%;
+		height: 15px;
+		background-color: #ECEEF1;
+	}
+	#large .slide{
+		display: none;			/*滑动图片消失*/
+	}
+	.contentfive{
+		width: 100%;
+	}
+	.contentfive .nav{
+		width: 100%;			
+		
+	}
+	.contentfive .hand{
+		overflow: hidden;
+		width: 100%;
+	}
+	.contentfive .hand a{
+		margin: 0;
+		margin-bottom: 20px;
+		
+	}
+	.contentfive .hand a img{
+		width: 100%;
+	}
+	.contentfive .hand a:nth-of-type(1),.contentfive .hand a:nth-of-type(3){
+		margin-right: 20px;
+	}
+	.contentfive .hand div{
+		width: 760px;
+		margin: 0;
+		overflow:hidden;
+	}
+	.contentfive .fivemian{
+		display: none;
+	}
+}
+@media screen and (max-width:740px){
+	.foot .server ul{
+		width: 40%;
+	}
+	.foot .server ul:nth-of-type(4),.foot .server ul:nth-of-type(5){
+		display: none;
+	}
+	.foot .server ul:nth-of-type(3){
+		width: 20%;
+	}
+}
+
+@media screen and (max-width:730px){
+	.contentthree .recommed em,.contentthree .appraisal em{
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.contentthree ul{
+		padding-top: 6px;
+		
+	}
+	.contentthree ul li{
+		margin-left: 0;
+		font-size: 12px;
+		list-style: none;
+		line-height: 32px;
+	}
+}
+@media screen and (max-width: 720px){
+	#large{
+		height: 0;
+		
+	}
+	.contenttow{
+		padding-top: 0;
+	}
+	.main1 li:nth-of-type(6){
+		display: none;
+	}
+	.video{
+		width: 99%;
+	}
+	.video .video3,.video .video4,.video .video5,.video .video6{
+		display: none;
+	}
+	.video .video1,.video .video2{
+		width: 49%;
+	}
+	.video .video1 span, .video .video2 span{
+		line-height: 30px;
+	}
+	.video .video2{
+		margin-left:2% ;
+		margin-right:0 ;
+	}
+	.contentfive{
+		width: 100%;
+	}
+	.contentfive .nav{
+		width: 100%;
+	}
+	.contentfive .nav .hand{
+		width: 100%;
+	}
+	.contentfive .nav .hand div{			/*第五部分*/
+		width: 100%;
+	}
+	.contentfive .nav .hand a{
+		width: 48%;
+		margin-right:0 ;
+	}
+	.contentfive .nav .hand a img{
+		width: 100%;
+	}
+	.contentfive .nav .hand a:nth-of-type(1),.contentfive .nav .hand a:nth-of-type(3){
+		margin-right:1%;
+	}
+	.contentfive .nav .fivemian{
+		display: block;
+		width: 100%;
+	}
+	.contentfive .nav .fivemian img{
+		width: 100%;
+	}
+	.contentfive .nav .fivemian div{
+		display: none;
+	}									/*隐藏并且显示*/
+	.contentfive .fivemian ul{
+		display: block;
+	}
+	.contentsix .nav{
+		width: 100%;
+	}
+	.contentsix .right{
+		display: none;
+	}
+	.contentsix .left{
+		width: 100%;
+	}
+	.contentsix .left div a{
+	  width: 49%;
+      height: 40%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      box-sizing: border-box;
+	}
+	.contentsix .left div a img{
+		width: 60%;
+	}
+	.contentsix .left div a em{
+		width: 50%;
+	}
+	.contentsix .left div a span{
+		margin-top:10% ;
+	}
+	.contentsix .left div a i{
+		margin-bottom:5px;
+	}
+	.contentsix .left div a:nth-of-type(4){
+		background-color:#fdfdfd ;
+	}
+	.contentsix .left div a:nth-of-type(4) img{
+		width: 84%;
+	}
+	.contentsix .left div a:nth-of-type(4) span{
+		margin-top: -10%;
+		margin-bottom: 5px;				/*第六部分*/
+	}
+	.contentsix .left div a:nth-of-type(2),.contentsix .left div a:nth-of-type(4){
+		margin-right: 0;
+	}
+	.counsel .nav ul{
+		display: none;
+	}
+	.counsel .nav .clear{
+		display: none;
+	}
+	.counsel .nav .big{
+		display: block;
+	}
+	.counsel .nav .big ul{
+		display: block;
+	}
+	.main1-tit{
+		font-size: 12px;
+		line-height: 30px;
+		margin-right: 5px;
+	}
+	.main1-ul{
+		line-height: 30px;
+	}
+	.main1-ul li{
+		margin:0 5px;
+	}
+}
+@media screen and (max-width:565px){
+	.contentthree .recommed,.contentthree .appraisal{
+		width: 100%;
+	}
+	.contentthree .recommed em,.contentthree .appraisal em{
+		line-height: 34px;
+	}
+	.contentthree ul li{
+		border-bottom: 1px solid #f4f5f7;
+		line-height: 40px;
+	}
+	.contentthree ul li i{
+		display: block;
+	}
+	.contentthree .appraisal{
+		padding-top: 15px;
+	}
+	.contentfive .nav .fivemian ul li span{
+		margin: 0 30%;				
+		width: 40%;
+		max-width: 35px;
+		min-width: 28px;
+	}
+}
+@media screen and (max-width:550px ) {
+	.contentfour .main1-ul{
+		display: none;				/*z友生活，ul消失*/
+	}
+	.contentfour .dog{
+		padding-bottom: 15px;
+	}
+	.contentfour a{
+		width: 49%;
+		margin-left:1% ;
+		margin-bottom: 1%;
+	}
+	.contentfour a :nth-of-type(1),.contentfour a :nth-of-type(3){
+		margin-left: 0;
+	}
+	.foot .server{							/*底层导航栏消失，*/
+		display: none;
+	}
+	.foot .rom{
+		display: none;
+	}
+	.bottom{
+		line-height: 20px;
+		text-align: center;
+		padding: 25px 0;
+		
+	}
+	.bottom span{
+		line-height: 20px;
+	}
+	.bottom img{
+		display: none;
+	}
+	.bottom em{						/*底部图片，栏消失*/
+		display: none;
+		
+	}
+	.bottom br{						
+		display: block;
+	}
+	
+}
+@media screen and(max-width:450px){
+	.contentsix .left div a{
+		font-size: 12px;
+	}
+
+}
+@media screen and(max-width:400px){			/*ZEALER出品*/
+	.contenttow ul li:nth-of-type(5){
+		display: none;
+	}
+}
+@media screen and (max-width:320px ) {		/*ZEALER出品*/
+	.contenttow ul li:nth-of-type(4){
+		display: none;
+	}
+}
